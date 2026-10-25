@@ -3,7 +3,7 @@ import React,{useId} from 'react'
     function Input({
         label,
         type="text",
-        classname="",
+        className="",
         ref,
         ...props
     }){
