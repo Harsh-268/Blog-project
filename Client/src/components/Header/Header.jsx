@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import Container from '../container/container.jsx'
+import Container from '../container/Container.jsx'
 import Logo from '../Logo.jsx'
 import LogoutBtn from './LougoutBtn.jsx'
 
