@@ -99,7 +99,7 @@ function Home() {
             <p className="text-center text-gray-500 py-8 md:py-12">Loading posts...</p>
           ) : posts.length === 0 ? (
             <div className="text-center px-4 py-10 md:py-12 border border-dashed border-gray-300 rounded-xl bg-white">
-              <h3 className="text-lg md:text-xl font-semibold text-gray-900">No posts yet</h3>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900">Sign In to see all Posts</h3>
               <p className="mt-2 text-sm md:text-base text-gray-500">
                 {authStatus
                   ? 'Be the first to publish something.'
